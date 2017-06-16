@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<req:ShipmentRequest xmlns:req='http://www.dhl.com' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.dhl.com ship-val-global-req.xsd' schemaVersion='5.0'>
+	<Request>
+		<ServiceHeader>
+			<MessageTime></MessageTime>
+			<MessageReference></MessageReference>
+			<SiteID></SiteID>
+			<Password></Password>
+		</ServiceHeader>
+	</Request>
+	<RegionCode></RegionCode>
+	<LanguageCode></LanguageCode>
+	<PiecesEnabled></PiecesEnabled>
+	<Billing>
+		<ShipperAccountNumber></ShipperAccountNumber>
+		<ShippingPaymentType></ShippingPaymentType>
+		<DutyPaymentType>R</DutyPaymentType>
+	</Billing>
+	<Consignee>
+		<CompanyName></CompanyName>
+		<AddressLine></AddressLine>
+		<City></City>
+		<DivisionCode></DivisionCode>
+		<PostalCode></PostalCode>
+		<CountryCode></CountryCode>
+		<CountryName></CountryName>
+		<Contact>
+			<PersonName></PersonName>
+			<PhoneNumber></PhoneNumber>
+			<Email></Email>
+			<MobilePhoneNumber></MobilePhoneNumber>
+		</Contact>
+	</Consignee>
+	<Dutiable>
+		<DeclaredValue></DeclaredValue>
+		<DeclaredCurrency></DeclaredCurrency>
+		<ShipperEIN></ShipperEIN>
+	</Dutiable>
+
+	<ExportDeclaration></ExportDeclaration>
+
+	<Reference></Reference>
+
+	<ShipmentDetails>
+		<NumberOfPieces></NumberOfPieces>
+		<Pieces>
+			<Piece></Piece>
+		</Pieces>
+		<Weight></Weight>
+		<WeightUnit></WeightUnit>
+		<GlobalProductCode></GlobalProductCode>
+		<LocalProductCode></LocalProductCode>
+		<Date></Date>
+		<Contents></Contents>
+		<DimensionUnit></DimensionUnit>
+		<IsDutiable>Y</IsDutiable>
+		<CurrencyCode></CurrencyCode>
+	</ShipmentDetails>
+	<Shipper>
+		<ShipperID></ShipperID>
+		<CompanyName></CompanyName>
+		<AddressLine></AddressLine>
+		<City></City>
+		<PostalCode></PostalCode>
+		<CountryCode></CountryCode>
+		<CountryName></CountryName>
+		<Contact>
+			<PersonName></PersonName>
+			<PhoneNumber></PhoneNumber>
+			<Email></Email>
+		</Contact>
+	</Shipper>
+	<LabelImageFormat>PDF</LabelImageFormat>
+	<Label>
+		<LabelTemplate>8X4_PDF</LabelTemplate>
+	</Label>
+</req:ShipmentRequest>
